@@ -2,8 +2,8 @@
 function CatchMe() {
     var gif = document.getElementById("catchMeGif");
 
-    var x = Math.floor(Math.random() * window.innerWidth);
-    var y = Math.floor(Math.random() * window.innerHeight);
+    var x = Math.floor(Math.random() * (window.innerWidth - 150));
+    var y = Math.floor(Math.random() * (window.innerHeight - 150));
     
     gif.style.left = x + "px";
     gif.style.top = y + "px";
@@ -13,4 +13,5 @@ function CatchMe() {
 
 function Caught() {
     alert(counter + ". seferde yakalandım");
+    counter = 0;
 }
