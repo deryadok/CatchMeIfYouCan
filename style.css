@@ -1,0 +1,12 @@
+﻿body {
+    background-color: black;
+}
+
+#catchMeGif{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
